@@ -42,7 +42,37 @@ footer {
     color: var(--light-color);
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        position: static; 
+    }
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0;
 }
