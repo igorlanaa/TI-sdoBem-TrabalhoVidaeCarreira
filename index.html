@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Inclusão para Todos</title>
+</head>
+<body>
+
+  <header>
+    <h1>Inclusão para Todos</h1>
+    <p>Assine nossa petição pela inclusão de pessoas com deficiência auditiva no mercado de trabalho.</p>
+  </header>
+
+  <section id="petition">
+    <h2>Petição pela Inclusão</h2>
+    <p>Queremos promover a inclusão de pessoas com deficiência auditiva, especialmente no mercado de trabalho, precisamos de sua assinatura para que possa ser enviado para Câmara dos Deputados um projeto de lei de iniciativa popular. Ajude-nos assinando a petição.</p>
+    
+    <a href="https://docs.google.com/forms/d/1urvsVsDUfqHEcale84-OTLepV2GYRz5f5iENuXu0ckM" target="_blank" rel="noopener noreferrer">
+      <button onclick="showThankYouMessage()">Assinar Agora</button>
+    </a>
+    
+    <div id="thankYouMessage" style="display: none;">
+      <p>Obrigado por assinar a petição! Sua contribuição é fundamental para a nossa causa.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Sobre Nossa Causa</h2>
+    <p>Nossa missão é criar oportunidades e quebrar barreiras para a inclusão de pessoas com deficiência auditiva na sociedade, com foco especial no mercado de trabalho.</p>
+  </section>
+
+  <section id="get-involved">
+    <h2>Como Participar</h2>
+    <p>Você pode fazer a diferença! Saiba como você pode se envolver e apoiar nossa causa.</p>
+    <ul>
+      <li>Assine a petição</li>
+      <li>Compartilhe nas redes sociais</li>
+      <li>Voluntarie-se</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Inclusão para Todos. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    function showThankYouMessage() {
+      
+      document.getElementById('thankYouMessage').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
